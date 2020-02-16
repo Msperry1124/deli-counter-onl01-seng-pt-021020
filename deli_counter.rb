@@ -1,4 +1,3 @@
-katz_deli = ["Moshe", "Fayge", "Rivki"]
 
 
 def line(array)
