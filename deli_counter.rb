@@ -31,7 +31,7 @@ end
 take_a_number(katz_deli, "Fyvish")
 
 def now_serving(line)
-  if line.length == 0
+  if line.length == "if deli.empty?"
     puts"There is nobody waiting to be served!"
   else
     puts "Currently serving #{line[0]}."
