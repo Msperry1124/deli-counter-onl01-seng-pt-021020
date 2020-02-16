@@ -14,3 +14,12 @@ def line(array)
     puts "The line is currently empty."
   end
 end
+
+def line_simple(array) 
+  current_line = "The simple line is currently:"
+  array.each.with_index(1) do |value, indexemus|  
+    current_line << " #{indexemus}. #{value},"    
+    # "indexemus" is used to illustrate this variable can be different from "index"
+  end 
+  puts current_line
+end 
