@@ -1,7 +1,7 @@
 katz_deli = ["Moshe", "Fayge", "Rivki"]
 
 
-def line(array) 
+def line(array)
   if array.length >= 1
     nuarray = []
     counter = 1
@@ -15,11 +15,11 @@ def line(array)
   end
 end
 
-def line_simple(array) 
+def line_simple(array)
   current_line = "The simple line is currently:"
   array.each.with_index(1) do |value, indexemus|  
-    current_line << " #{indexemus}. #{value},"    
+    current_line << " #{indexemus}. #{value},"
     # "indexemus" is used to illustrate this variable can be different from "index"
-  end 
+  end
   puts current_line
-end 
+end
